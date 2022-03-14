@@ -1,0 +1,167 @@
+body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.wrapper {
+    height: 600px;
+    width: 500px;
+    background: white;
+    margin-top: 40px;
+    margin-left: 30%;    
+}
+
+.container {
+display: flex;
+flex-direction: column;
+width: 500px;
+border-top: none;
+border-right: none;
+border-bottom-width: 1px;
+border-left: none;
+
+}
+
+form {
+    margin: 5%;
+}
+
+.container #name {
+    margin-top: 30px;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid grey;
+    width: 400px;
+    margin-left: 10px;
+    border-width: 2px;
+    padding: 5% 0% 0% 0%;
+    font-size: large;
+}
+
+.container #email {
+    margin-top: 30px;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid grey;
+    width: 400px;
+    margin-left: 10px;
+    border-width: 2px; 
+    padding: 5% 0% 0% 0%;
+    font-size: large;
+}
+
+
+#dateMonth.month {
+    border-width: 2px;
+    text-align: center;
+    border: transparent;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: large;
+    border-bottom: 2px solid grey;
+}
+
+#dateDay.day {
+    border-width: 2px;
+    text-align: center;
+    border: transparent;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: large;
+    border-bottom: 2px solid grey;
+}
+
+#dateYear.year {
+    border-width: 2px;
+    text-align: center;
+    border: transparent;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: large;
+    border-bottom: 2px solid grey;
+}
+
+#date .date {
+     font-size: larger;
+     margin-left: 7px;
+}
+
+#time .time {
+    font-size: larger;
+    margin-left: 7px;
+}
+
+#time {
+    margin-top: 20px;
+}
+#timeHour.hour {
+    border-width: 2px;
+    text-align: center;
+    border: transparent;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: large;
+    border-bottom: 2px solid grey;
+}
+
+#timeMinute.minute {
+    border-width: 2px;
+    text-align: center;
+    border: transparent;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: large;
+    border-bottom: 2px solid grey;
+}
+
+#amPm {
+    border-width: 2px;
+    text-align: center;
+    border: transparent;
+    margin-top: 30px;
+    margin-right: 35px;
+    font-size: large;
+    border-bottom: 2px solid grey;
+    width: 70px;
+}
+
+#numberOfPeople {
+    margin-top: 40px;
+    margin-left: 40px;
+    border-bottom: 1px solid grey;
+    border-width: 2px;
+    width: 350px;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+#decrement {
+    border: none;
+    font-size: 30px;
+    background: white;
+    color: rgb(100, 29, 3);
+    }
+
+#increment {
+    border: none;
+    font-size: 20px;
+    background: white;
+    color: rgb(100, 29, 3);   
+}
+
+#submitButton {
+    margin-top: 40px;
+    height: 50px;
+    width: 400px;
+    margin-left: 30px;
+    background: black;
+    color: white;
+}
+
+#number{
+    padding-left: 100px;
+    padding-right: 70px;
+}
